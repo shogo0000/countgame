@@ -8,8 +8,7 @@
 <script lang="ts">
 import Display from "./components/Display.vue";
 import AddButton from "./components/AddButton.vue";
-import Component from "vue-class-component";
-import { Vue, Watch } from "vue-property-decorator";
+import { Vue, Watch, Component } from "vue-property-decorator";
 
 @Component({
   components: {
